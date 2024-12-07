@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-cont {
+    height: 100vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-cont {
+    background-color: black;
+    color: white;
+    border: 1px solid lightgray;
+    padding: 70px;
+    border-radius: 20px;
+}
