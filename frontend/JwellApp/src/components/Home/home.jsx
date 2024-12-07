@@ -1,9 +1,12 @@
-
+import Header from '../Header/header'
+import Footer from '../Footer/footer'
 
 const Home = ()=>{
     return(
         <>
-            <h1 className="text-dark">Home Component</h1>
+            <Header />
+            <h1 className="text-dark p-3">Home Component</h1>
+            <Footer />
         </>
      )
 }

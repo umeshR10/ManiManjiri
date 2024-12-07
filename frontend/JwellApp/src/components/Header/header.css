@@ -1,3 +1,4 @@
+
 a {
   text-decoration: none;
 }
@@ -32,7 +33,6 @@ a {
   }
 
   .search-input {
-    width: 150px;
+    width: 250px;
   }
-
 }
