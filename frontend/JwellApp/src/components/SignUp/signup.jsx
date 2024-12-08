@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 
 const SignUp = () => {
   return (
-    <div className="signup-form-container container-fluid">
+    <div className=" signup-form-container container-fluid">
       <h3 className="text-center"> Registration Form </h3>
       <form className="row">
         <Form.Group
@@ -47,7 +47,7 @@ const SignUp = () => {
           <Form.Control placeholder="Enter Zip" />
         </Form.Group>
       </form>
-        <Button className="mt-3 btn btn-primary" type="submit">
+        <Button  className="mt-3 btn btn-primary" type="submit">
           Submit
         </Button>
     </div>
