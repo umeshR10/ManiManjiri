@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img1{
+    height: 430px;
+    width: 100%;
+}
+.img2{
+    height: 430px;
+    width: 100%;
+}
+/* .asa{
+    height: 120px;
+    width: 100%;
+} */
