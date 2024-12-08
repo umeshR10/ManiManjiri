@@ -1,6 +1,7 @@
 
 a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 .search-container {
@@ -26,7 +27,7 @@ a {
 }
 
 /* Media query for responsiveness */
-@media (min-width: 412px) {
+@media (min-width: 515px) {
   .search-container {
     display: flex;
     justify-content: center;

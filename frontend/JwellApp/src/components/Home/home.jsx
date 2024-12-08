@@ -1,12 +1,15 @@
 import Header from '../Header/header'
+import HomeContent from '../HomeContent/homeContent'
 import Footer from '../Footer/footer'
 
 const Home = ()=>{
     return(
         <>
+            <div className='bg-dark'>
             <Header />
-            <h1 className="text-dark p-3">Home Component</h1>
+            <HomeContent />
             <Footer />
+            </div>
         </>
      )
 }

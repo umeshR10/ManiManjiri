@@ -15,10 +15,10 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg bg-dark text-white">
         <div className="container-fluid">
           <button
-            className="navbar-toggler me-3"
+            className="navbar-toggler me-3 bg-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarToggler"
@@ -43,7 +43,7 @@ const Header = () => {
             />
           </div>
           <div className="search-icon" onClick={handleSearchClick}>
-            <i className="fas fa-search"></i>
+          <i className="fa-solid fa-magnifying-glass" style={{color: "#63E6BE",}}></i>
           </div>
           <div className="collapse navbar-collapse" id="navbarToggler">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
