@@ -37,23 +37,59 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  
 }
 .first-content {
   height: 450px;
-  width: 25%;
-  
+  width: 33%;
   margin-top: 5px;
 }
 .sec-content {
   height: 450px;
-  width: 25%;
-
+  width: 33%;
   margin-top: 5px;
 }
 .third-content {
   height: 450px;
-  width: 25%;
-
+  width: 33%;
   margin-top: 5px;
+}
+.many-options {
+  height: 350px;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.its-options {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(191, 219, 243);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.firstCircle {
+  height: 220px;
+  width: 250px;
+  border-radius: 50%;
+}
+.secondCircle {
+  height: 220px;
+  width: 250px;
+
+  border-radius: 50%;
+}
+.thirdCircle {
+  height: 220px;
+  width: 250px;
+  border-radius: 50%;
+}
+.fourthCircle {
+  height: 220px;
+  width: 250px;
+  border-radius: 50%;
+}
+.fifthCircle {
+  height: 220px;
+  width: 250px;
+  border-radius: 50%;
 }
